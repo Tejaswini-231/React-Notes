@@ -1,5 +1,5 @@
-import './App.css'
-import {MyComponent,Conditions,PersonComponent} from './practice '
+import "../App.css";
+import { MyComponent, Conditions, PersonComponent } from "./practice";
 function App() {
 
   return (
