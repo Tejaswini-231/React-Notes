@@ -1,7 +1,7 @@
 
 // import { MyComponent, Conditions, PersonComponent } from "./practice";
-import "../Day-2/index.css";
-import Card from "../Day-2/Card.jsx";
+import "./index.css";
+import Card from "./Card.jsx";
 function App() {
 
   return (

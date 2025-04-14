@@ -1,0 +1,26 @@
+.card{
+  border:1px solid black;
+  max-width: 250px;
+  border-radius: 10px;
+  padding:20px;
+  box-shadow: 10px 10px 0.3px hsla(0, 1%, 64%, 0.58);
+  text-align: center;
+  margin: 10px;
+  display: inline-block;
+}
+
+.card .card-logo{
+  border-radius: 50%;
+  max-width:120px;
+}
+
+.heading{
+  font-family:sans-serif;
+  color:rgb(3, 3, 3)
+}
+
+.text{
+  font-family: sans-serif;
+  color:rgba(0, 0, 0, 0.76);
+  font-size: small;
+}
