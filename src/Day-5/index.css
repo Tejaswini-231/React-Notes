@@ -1,0 +1,74 @@
+.count-text{
+    font-family: sans-serif;
+    border:2px solid black;
+    width:250px;
+    padding:25px;
+    border-radius: 10px;
+    text-align: center;
+    font-size:2em;
+    margin-left: 40%;
+    background-color: rgb(244, 218, 244);
+}
+
+.increment-btn{
+    width: 100px;
+    padding:10px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    background-color:paleturquoise;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-left: 35%;
+    cursor: pointer;
+}
+
+.decrement-btn{
+    width: 100px;
+    padding:10px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    background-color:palevioletred;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.restart-btn{
+    width: 100px;
+    padding:10px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    background-color:palegreen;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.input-container{
+    width:250px;
+    border: 2px solid black;
+    padding:25px;
+    border-radius: 10px;
+}
+
+h3{
+    font-family: sans-serif;
+    margin-left:100px;
+}
+.input{
+    font-family: sans-serif;
+    margin-bottom:10px;
+    width:auto;
+    height:20px;
+    border-radius: 3px;
+}
+
+.output-container{
+    font-family: sans-serif;
+    width:250px;
+    border: 2px solid black;
+    padding:25px;
+    border-radius: 10px;
+}
