@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './App.css'; 
 
 function ToDo() {
     const [tasks, setTasks] = useState(["study", "journal", "go on a walk"]);
@@ -23,10 +24,15 @@ function ToDo() {
     }
 
     return (
-        <div>
+        <div className="todo-container">
             <h4>To-Do List</h4>
-            <input type="text" placeholder='Enter the task..'  value={newTask} onChange={handleInputChange} />
-            <button onClick={addTask}>Add task</button>
+            <input
+                type="text"
+                placeholder="Enter the task.."
+                value={newTask}
+                onChange={handleInputChange}
+            />
+            <button onClick={addTask}>Add Task</button>
             <ol>
                 {tasks.map((task, index) => (
                     <li key={index}>
